@@ -1,4 +1,4 @@
-# AI=DSTK Library
+# AIDSTK Library
 
 A modular and flexible AI library for processing text data using customizable prompts and configurations. This library allows you to easily integrate AI models into your data processing pipelines, with the ability to dynamically change prompts and configurations without modifying your main codebase.
 
