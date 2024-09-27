@@ -2,6 +2,8 @@
 
 A modular and flexible AI library for processing text data using customizable prompts and configurations. This library allows you to easily integrate AI models into your data processing pipelines, with the ability to dynamically change prompts and configurations without modifying your main codebase.
 
+Primarily aimed to help handle tabular data and make some data preparations more efficient
+
 ## Table of Contents
 
 - [Features](#features)
