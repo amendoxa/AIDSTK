@@ -3,9 +3,11 @@ from tqdm import tqdm
 import time
 from datetime import datetime
 import json
+from models import initialize_model
 
-def get_category_and_subcategory(ollama_model, text):
+def get_category_and_subcategory(text):
     try:
+        ollama_model = initialize_model('llama3_1_T0_00.json', 'IT_Categorizer.txt')
         response = ollama_model(text)
         data = json.loads(response)
         category = data.get('category', None)
